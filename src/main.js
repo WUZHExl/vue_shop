@@ -7,7 +7,10 @@ import './plugins/element.js'
 import './assets/css/global.css'
 import './assets/fonts/iconfont.css'
 
+// 依赖
+import ZkTable from 'vue-table-with-tree-grid'
 
+Vue.component('tree-table', ZkTable)
 
 import axios from 'axios'
 // 配置请求根路径
