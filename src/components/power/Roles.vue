@@ -364,7 +364,7 @@ export default {
 }
 </script>
 
-<style lang="less" scope>
+<style lang="less" scoped>
 .el-tag{
   margin: 7px;
 }
