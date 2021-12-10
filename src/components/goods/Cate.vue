@@ -183,7 +183,7 @@ export default {
         this.catelist=res.data.result
         this.total=res.data.total
 
-
+       
     },
 
     // 监听pagesize改变的事件
